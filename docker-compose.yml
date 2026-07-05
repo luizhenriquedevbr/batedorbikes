@@ -1,0 +1,8 @@
+name: batedorbikes
+
+services:
+  app:
+    build: .
+    ports:
+      - "4501:80"
+    restart: unless-stopped
